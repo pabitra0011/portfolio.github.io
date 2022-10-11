@@ -1,0 +1,236 @@
+body{
+    background-color: rgb(62, 62, 62);
+    /* width: 100%; */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #24252A;
+    height: 70px;
+ }
+ .head{
+    width: 100%;
+    position: fixed;
+    top: 0;
+ }
+ .spn{
+    color: rgb(255, 0, 204);
+    font-size: 66px;
+ }
+ .logo{
+    font-size: 50px;
+    color: rgb(11, 11, 241);
+    cursor: pointer;
+ }
+ li,a,button{
+    font-family: "montserrat" ,sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+ }
+ .navlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* position: fixed; */
+ }
+ .navlist li{
+    display: inline-block;
+    padding:  20px;
+ }
+ .navlist li a{
+    transition: all 0.3s ease 0s;
+    font-size: 30px;
+ }
+ .navlist li a:hover{
+    color: rgb(239, 95, 129);
+    border-bottom: 5px solid rgb(222, 81, 81);
+ }
+ .contact-btn{
+    padding: 9px 25px;
+
+    margin-right: 90px;
+    background-color: rgba(0,136,169,1);
+    cursor: pointer;
+    /* border: none; */
+    border: 1px solid rgba(0,136,169,1);
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+ }
+ .contact-btn:hover{
+    border: 4px soid rgba(0,136,169,1);
+    background-color: #24252A;
+ }
+
+
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    /* border:1px solid red; */
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 30px 30px 10px rgb(55, 46, 46);
+   margin-bottom: 100px;
+   border: 1px solid rgb(95, 90, 90);
+
+}
+.frm{
+ margin: 15px;
+}
+
+.h{
+    /* margin: 40px; */
+    margin-top: 140px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+text-shadow: 2px 2px red;
+text-decoration: underline 1px rgb(238, 67, 67) ;
+}
+.p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.frm label{
+    color: rgb(248, 237, 237);
+    font-size: 20px;
+/* text-shadow:  5px 1px 5px rgb(44, 20, 228); */
+
+   
+}
+:placeholder-shown{
+    padding:5px;
+}
+.frm input{
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 4px 4px rgb(249, 0, 0);
+    
+}
+.frm input:hover{
+    box-shadow: none;
+    transition: 0.5s;
+}
+.msg-fld{
+width: 350px;
+height: 60px;
+border: none;
+border-radius: 30px;
+box-shadow: 2px 2px 5px rgb(244, 5, 5);
+
+}
+.button{
+    width: 200px;
+    height: 30px;
+    margin: 70px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(147, 47, 47, 0.969);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(173, 64, 64),rgb(22, 0, 22));
+    transition: 0.5s;
+
+}
+/* footer sectoo----------------------------------------------- */
+#footer-section{
+    background-color: rgb(48, 47, 53);
+    width: 100%;
+    height: 450px;
+
+ 
+ }
+ .footer{
+    /* background-color: black; */
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ 
+ }
+ .fitm{
+ /* padding: 0px; */
+ /* margin-bottom: 50px; */
+ }
+ .fitm h3{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+ 
+ }
+ .fitm p{
+    font-size: 13px;
+    color: rgb(252, 252, 252);
+    padding-bottom: 10px;
+    
+ }
+ .fitm h1{
+    padding-top: 30px;
+    color: rgba(249, 249, 250, 0.907);
+    text-decoration: underline rgb(246, 4, 4) 2px;
+    padding-bottom: 10px;
+    font-size: 20px;
+ }
+ 
+ 
+ .social-icon{
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 90px; */
+ }
+ .social-icon img{
+ height: 30px;
+ width: 30px;
+ cursor: pointer;
+ 
+ 
+ }
+ .social-icon a{
+    margin-inline: 30px;
+    opacity: 0.6;
+ }
+ .social-icon a:hover{
+ /* background-color: rgb(0, 0, 0); */
+ box-shadow:  5px 5px 5px  rgb(91, 123, 230);
+ opacity: 1.0;
+ }
+ .redlogo{
+   /* box-align: 0; */
+   
+ }
+ .redlogo >a:hover{
+    box-shadow: 5px 5px 5px  rgb(231, 11, 11);
+ }
+ .socialh1{
+    color: rgb(139, 9, 7);
+    text-shadow: rgb(0, 0, 0) 10px 10px 10px;
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+    text-align: center;
+ 
+ }
+ 
+ 
+ #copy{
+    
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-style: bold;
+    text-align: center;
+    /* padding-top: 50px; */
+    background-color: red;
+    height: 30px;
+ }

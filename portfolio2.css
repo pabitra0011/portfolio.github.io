@@ -1,0 +1,371 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #24252A; */
+ }
+ /* ------------------navigation section-------------------------------- */
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   background-color: #24252A;
+   
+}
+.head{
+   width: 100%;
+   position: fixed;
+   top: 0;
+}
+.spn{
+   color: rgb(255, 0, 204);
+   font-size: 66px;
+}
+.logo{
+   font-size: 50px;
+   color: rgb(11, 11, 241);
+   cursor: pointer;
+}
+li,a,button{
+   font-family: "montserrat" ,sans-serif;
+   font-weight: 500;
+   color: white;
+   font-size: 25px;
+   text-decoration: none;
+}
+.navlist{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-evenly;
+   /* position: fixed; */
+}
+.navlist li{
+   display: inline-block;
+   padding:  20px;
+}
+.navlist li a{
+   transition: all 0.3s ease 0s;
+   font-size: 30px;
+}
+.navlist li a:hover{
+   color: rgb(239, 95, 129);
+   border-bottom: 5px solid rgb(222, 81, 81);
+}
+.contact-btn{
+   padding: 9px 25px;
+   margin-right: 90px;
+   background-color: rgba(0,136,169,1);
+   cursor: pointer;
+   /* border: none; */
+   border: 1px solid rgba(0,136,169,1);
+   border-radius: 50px;
+   transition: all 0.3s ease 0s;
+}
+.contact-btn:hover{
+   border: 4px soid rgba(0,136,169,1);
+   background-color: #24252A;
+}
+ /* -------------------------------------------- */
+ /* ---------------------------body section------------------------------ */
+.main-page{
+   display: flex;
+   justify-content: space-around;
+   background-color: #24252A;
+   height: 1000px;
+}
+.intro{
+   margin-top: 350px;
+   padding-left: 80px;
+
+}
+.intro p{
+   color: white;
+   font-size: 20px;
+
+}
+.intro h1{
+   color: red;
+   font-size: 90px;
+   text-shadow: black 10px 10px 10px;
+}
+.mail{
+   margin-top: 60px;
+   /* margin: 20px; */
+   width: 260px;
+   height: 40px;
+   border: 1px solid rgb(238, 10, 10);
+   border-radius: 20px;
+   background-color:  #24252A;;
+   
+}
+.mail:hover{
+   background-color: rgb(215, 212, 212) ;
+   
+}
+#mailsubmit{
+   margin-left: 20px;
+   background-color: red;
+   border: 2px solid red;
+   border-radius: 20px;
+   width: 180px;
+   height: 44px;
+   cursor: pointer;
+}
+#mailsubmit:hover{
+  transition-duration: 1s;
+   background-color: #24252A;
+}
+.roboimg img{
+   margin-top: 180px;
+   margin-right: 100px;
+   height: 700px;
+   width: 600px;
+   opacity: 0.5;
+   border: 2px solid rgb(233, 14, 14);
+   border-radius: 50%;
+   image-resolution: 100;
+}
+/* ------------------------------------------------------ */
+/* -----------------------------------------about seciton----------------------- */
+#about-section{
+   background-color: rgb(35, 35, 35);
+   height: 700px;
+}
+.about{
+   width: 70%;
+   text-align: center;
+   margin: auto;
+   
+  padding-top:70px;
+}
+.about h1{
+   color: white;
+   font-size: 50px;
+   text-decoration: underline 4px rgb(156, 155, 155) ;
+
+
+}
+.about p{
+   color: rgb(147, 146, 157);
+   margin-top: 30px;
+}
+.about button{
+   background-color: red;
+   border: none;
+   border-radius: 8px;
+   width: 120px;
+   height: 40px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.about button:hover{
+   background-color: #24252A;
+   border: 2px solid red;
+   transition: 0.5s;
+}
+/* --------------------------- project section------------ */
+#projects-section{
+   background-color: rgb(23, 18, 26);
+   width: 100%;
+   height: 1300px;
+}
+.project-item a{
+   text-decoration: none;
+}
+#projects-section h1{
+   text-align: center;
+   font-size: 40px;
+   padding-top: 130px;
+   color: rgb(255, 255, 255);
+   font-style: italic;
+   text-decoration: underline 5px rgb(250, 2, 2) ;
+   text-underline-offset: 10px;
+   padding-top: 80px;
+}
+.project-cointaner{
+   display: grid;
+   justify-content: center;
+ margin-top: 100px;
+ row-gap: 100px;
+column-gap: 30px;
+grid-template-columns: 400px 400px 400px;
+
+}
+.project-item{
+   box-shadow: #000000 5px 20px 20px;
+   width: 350px;
+   height: 350px;
+   border-radius: 20px;
+   
+}
+.project-item:hover{
+   /* border: 1px solid rgba(137, 10, 10, 0.473); */
+   box-shadow: none;
+}
+
+.project-item p{
+   /* border: 1px solid rgba(247, 244, 244, 0.503); */
+   /* background-color: rgb(14, 11, 6); */
+   color: rgba(250, 9, 9, 0.995);
+   /* height: 50px; */
+   margin-top: 0ch;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn button{
+ background-color: rgb(252, 2, 2);
+ cursor: pointer;
+ width: 150px;
+ height: 40px;
+ margin-left: 700px;
+ margin-top: 100px;
+ color: white;
+ font-size: 20px;
+ border-radius: 20px;
+}
+.btn button:hover{
+   background-color: rgb(0, 0, 0);
+   /* border: 2px solid rgba(3, 12, 6, 0.36); */
+   color: rgb(237, 13, 13);
+}
+/* ----------------------------service section--------- */
+
+#service-section{
+   height: 700px;
+   background-color: #24252A;
+   padding-top: 60px;
+}
+.service{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: black; */
+   /* height: 800px; */
+}
+.serviceh1{
+   text-align: center;
+   color: red;
+   font-size: 40px;
+   text-decoration: underline red 3px;
+}
+.service-item{
+   width: 350px;
+   height: 350px;
+   /* border: 1px solid red; */
+   background-color: rgb(12, 11, 11);
+   margin: 40px;
+   border-radius: 15px;
+   box-shadow: 29px 30px 10px black;
+   border: 1px solid red;
+}
+.service-item:hover{
+   box-shadow: none;
+   background-color:#252730;
+}
+.service-item h1{
+   text-align: center;
+   padding-top: 50px;
+   color: rgb(254, 254, 254);
+   font-size: 30px;
+   
+}
+.service-item p{
+   text-align: center;
+   padding-top: 50px;
+   color: rgb(190, 185, 185);
+}
+.service-btn{
+  background-color: red;
+  border: none;
+  margin-left: 110px;
+  margin-top: 70px;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 10px;
+color: black;
+cursor: pointer;
+}
+.service-item button:hover{
+   border: 2px solid red;
+   background-color:black;
+   color: white;
+   transition: 0.5s;
+}
+hr {
+   /* padding-top: 5px; */
+   margin-bottom: 100px;
+   width: 100%;
+}
+
+/* ------------------------------- footer section ---------------------- */
+#footer-section{
+   background-color: rgb(84, 82, 91);
+   width: 100%;
+   height: 450px;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.fitm h3{
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+
+}
+.fitm p{
+   font-size: 13px;
+   color: rgb(252, 252, 252);
+   padding-bottom: 10px;
+}
+.fitm h1{
+   padding-top: 30px;
+   color: rgba(249, 249, 250, 0.907);
+   text-decoration: underline rgb(246, 4, 4) 2px;
+   padding-bottom: 10px;
+   font-size: 20px;
+}
+.social-icon{
+   display: flex;
+   /* justify-content: space-evenly; */
+   justify-content: center;
+   align-items: center;
+   padding: 90px;
+}
+.social-icon img{
+height: 30px;
+width: 30px;
+cursor: pointer;
+
+}
+.social-icon a{
+   margin-inline: 30px;
+}
+.social-icon a:hover{
+/* background-color: rgb(0, 0, 0); */
+/* box-shadow:  5px 5px 5px  rgb(91, 91, 91); */
+
+}
+
+.socialh1{
+   color: rgb(139, 9, 7);
+   text-shadow: rgb(0, 0, 0) 10px 10px 10px;
+   /* border: 1px solid red; */
+   /* padding: 10px; */
+   text-align: center;
+
+}
+#copy{
+   
+   color: rgb(255, 255, 255);
+   font-size: 15px;
+   font-style: bold;
+   text-align: center;
+   /* padding-top: 50px; */
+   background-color: red;
+   height: 30px;
+}
+/* ---------------------------------------------------------------------- */
