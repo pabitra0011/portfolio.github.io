@@ -10,7 +10,7 @@ header{
    justify-content: space-between;
    align-items: center;
    padding: 10px;
-   background-color: #24252A;
+   background-color: #1e0000;
    
 }
 .head{
@@ -19,12 +19,12 @@ header{
    top: 0;
 }
 .spn{
-   color: rgb(255, 0, 204);
+   color: red;
    font-size: 66px;
 }
 .logo{
    font-size: 50px;
-   color: rgb(11, 11, 241);
+   color: rgb(239, 95, 129);
    cursor: pointer;
 }
 li,a,button{
@@ -47,18 +47,19 @@ li,a,button{
 .navlist li a{
    transition: all 0.3s ease 0s;
    font-size: 30px;
+   transition: 0.3s;
 }
 .navlist li a:hover{
-   color: rgb(239, 95, 129);
-   border-bottom: 5px solid rgb(222, 81, 81);
+   color: red;
+   border-bottom: 5px solid red;
 }
 .contact-btn{
    padding: 9px 25px;
    margin-right: 90px;
-   background-color: rgba(0,136,169,1);
+   background-color:red;
    cursor: pointer;
    /* border: none; */
-   border: 1px solid rgba(0,136,169,1);
+   border: 1px solid red;
    border-radius: 50px;
    transition: all 0.3s ease 0s;
 }
@@ -71,7 +72,7 @@ li,a,button{
 .main-page{
    display: flex;
    justify-content: space-around;
-   background-color: #24252A;
+   background-color: #000000;
    height: 1000px;
 }
 .intro{
@@ -87,14 +88,14 @@ li,a,button{
 .intro h1{
    color: red;
    font-size: 90px;
-   text-shadow: black 10px 10px 10px;
+   text-shadow: rgb(252, 252, 252) 5px 7px 19px;
 }
 .mail{
    margin-top: 60px;
    /* margin: 20px; */
    width: 260px;
    height: 40px;
-   border: 1px solid rgb(238, 10, 10);
+   border: 2px solid red;
    border-radius: 20px;
    background-color:  #24252A;;
    
@@ -106,14 +107,14 @@ li,a,button{
 #mailsubmit{
    margin-left: 20px;
    background-color: red;
-   border: 2px solid red;
+   border: 1px solid red;
    border-radius: 20px;
    width: 180px;
    height: 44px;
    cursor: pointer;
 }
 #mailsubmit:hover{
-  transition-duration: 1s;
+  transition-duration: 0.5s;
    background-color: #24252A;
 }
 .roboimg img{
@@ -193,7 +194,7 @@ grid-template-columns: 400px 400px 400px;
 
 }
 .project-item{
-   box-shadow: #000000 5px 20px 20px;
+   box-shadow: #000000 6px 20px 20px;
    width: 350px;
    height: 350px;
    border-radius: 20px;
@@ -202,6 +203,7 @@ grid-template-columns: 400px 400px 400px;
 .project-item:hover{
    /* border: 1px solid rgba(137, 10, 10, 0.473); */
    box-shadow: none;
+   border: 1px solid black;
 }
 
 .project-item p{
@@ -263,7 +265,8 @@ grid-template-columns: 400px 400px 400px;
 }
 .service-item:hover{
    box-shadow: none;
-   background-color:#252730;
+   background-color:#24252A;
+   border: none;
 }
 .service-item h1{
    text-align: center;
@@ -289,7 +292,7 @@ color: black;
 cursor: pointer;
 }
 .service-item button:hover{
-   border: 2px solid red;
+   border: 1px solid red;
    background-color:black;
    color: white;
    transition: 0.5s;
@@ -313,7 +316,7 @@ align-items: center;
 }
 .fitm h3{
    font-size: 16px;
-   color: rgb(0, 0, 0);
+   color: rgb(255, 0, 0);
 
 }
 .fitm p{
